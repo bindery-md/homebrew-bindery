@@ -1,8 +1,8 @@
 # homebrew-bindery
 
-Homebrew tap for [bindery](https://github.com/aashan10/bindery).
+Homebrew tap for [bindery](https://github.com/bindery-md/bindery).
 
 ```sh
-brew tap aashan10/bindery
+brew tap bindery-md/bindery
 brew install bindery
 ```
