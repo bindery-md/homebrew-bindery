@@ -1,28 +1,28 @@
 class Bindery < Formula
   desc "Compile Markdown into a paginated, bound PDF via Gotenberg"
   homepage "https://github.com/bindery-md/bindery"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/bindery-md/bindery/releases/download/v1.0.0/bindery-macos-aarch64"
-      sha256 "b2ece41012f1d58ed556f5b2362522a8716ba1593e2c3db7d93809511e0e0a5b"
+      url "https://github.com/bindery-md/bindery/releases/download/v1.1.0/bindery-macos-aarch64"
+      sha256 "d3824033ac9263d5a67eb39d8c5892e1783ebb45cbe26963d2965f6184b64c85"
     end
     on_intel do
-      url "https://github.com/bindery-md/bindery/releases/download/v1.0.0/bindery-macos-x86_64"
-      sha256 "eb812b92958d631386d43881a2fd4f1824f6de3de15f13215baae42ef0f848af"
+      url "https://github.com/bindery-md/bindery/releases/download/v1.1.0/bindery-macos-x86_64"
+      sha256 "d43e8162b74fb4027f2613ba5263e74624a9ef025231f6ad5c963872f3ae54a7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/bindery-md/bindery/releases/download/v1.0.0/bindery-linux-aarch64"
-      sha256 "bdb245e36c065f4695bab6dcc39e99579ee537cf45ba6d271df7f7f5e6f8ea4d"
+      url "https://github.com/bindery-md/bindery/releases/download/v1.1.0/bindery-linux-aarch64"
+      sha256 "bacbf359208c07a137abe7d08b734266a5c196531fa89ba72d1dd443fb758ee8"
     end
     on_intel do
-      url "https://github.com/bindery-md/bindery/releases/download/v1.0.0/bindery-linux-x86_64"
-      sha256 "ed0ded6c87eb4abcb477cc7709957b3744dfbb510008228ee83ee3ec2b50b905"
+      url "https://github.com/bindery-md/bindery/releases/download/v1.1.0/bindery-linux-x86_64"
+      sha256 "21f072a07d13bc63850e6e82d8353a31140501446fbf94f770dc4d3d50c5f57d"
     end
   end
 
